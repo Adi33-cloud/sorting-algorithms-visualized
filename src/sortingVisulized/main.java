@@ -11,8 +11,13 @@ public class main extends JPanel  {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-		
+//		int[] arr= new int [420];
+//		main m = new main();
+//		GUI display = new GUI();
+//		m.fill(arr);
+//		//display.start(arr);
+//		SortingAlgorithms sa = new SortingAlgorithms();
+
 		while(true){
 		//String output = " ";
 		String input= JOptionPane.showInputDialog("\n Please choose an option"
@@ -38,8 +43,6 @@ public class main extends JPanel  {
 			a.add(b); 
 			b.fill();
 			a.setVisible(true);
-
-			
 			b.InserstionSort();
 			a.setVisible(false);
 			
@@ -113,9 +116,6 @@ public class main extends JPanel  {
 
 			break;
 
-			
-			
-		
 		case 6: System.exit(0);
 		
 		}
@@ -298,8 +298,6 @@ public class main extends JPanel  {
 			
 		}
 		xloc=10;
-		
-		
 	}	
 }
 	
